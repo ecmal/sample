@@ -1,5 +1,17 @@
 {
-  "name"    : "runtime-test",
-  "vendor"  : "ecmal",
-  "version" : "0.0.1"
+  "name"        : "sample",
+  "version"     : "0.0.1",
+  "format"      : "tsm",
+  "repository"  : "bitbucket:ecmal/sample",
+  "directories" : {
+    "source"    : "src",
+    "output"    : "out"
+  },
+  "dependencies" : {
+    "one"        : "bitbucket:ecmal/sample#1.2.0"
+  },
+  "engines":{
+    "node"   : "1.2.3",
+    "chrome" : "13"
+  }
 }
