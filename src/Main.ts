@@ -1,5 +1,5 @@
-import {One} from './One';
-import {Two} from './Two';
+import {One} from './sub/One';
+import {Two} from './sub/Two';
 
 import * as Fs from 'node/fs';
 import * as Zlib from 'node/zlib';
