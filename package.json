@@ -1,19 +1,17 @@
 {
   "name"          : "sample",
   "version"       : "0.0.3",
-  "format"        : "tsm",
   "registry"      : "bitbucket",
   "vendor"        : "ecmal",
-  "repository"    : "bitbucket:ecmal/sample",
   "directories"   : {
-    "source"    : "src",
-    "output"    : "out"
+    "source"      : "src",
+    "output"      : "out",
+    "vendor"      : "out"
   },
-  "dependencies"  : {
-    "one"        : "bitbucket:ecmal/sample#1.2.0"
+  "libraries"     : {
+    "runtime"     : "ecmal/runtime#1.2.0"
   },
   "engines"       : {
-    "node"   : "1.2.3",
-    "chrome" : "13"
+    "node"   : "1.2.3"
   }
 }
