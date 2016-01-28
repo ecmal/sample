@@ -1,0 +1,119 @@
+{
+  "name": "sample",
+  "vendor": "ecmal",
+  "version": "0.0.1",
+  "registry": "github",
+  "bundle": false,
+  "libraries": {
+    "core": "0.0.1",
+    "runtime": "0.0.1"
+  },
+  "author": {
+    "name": "Sergey Mamyan",
+    "email": "sergey.mamyan@gmail.com"
+  },
+  "commit": "2eb7eeef4a7cabf3bf488c172d6c21687f78d3a8",
+  "repository": "https://github.com/ecmal/sample.git",
+  "modules": {
+    "Main": {
+      "name": "Main",
+      "version": "fc886efad487b61aa4786a9513a36dcf",
+      "size": 874,
+      "hash": "dca85069feaff8bccd9e3ddd52b689dc",
+      "files": {
+        ".ts": {
+          "size": 395,
+          "hash": "fc886efad487b61aa4786a9513a36dcf",
+          "sha": "e7f89b0984e15ef8d21c20f31437d85c447788a1"
+        },
+        ".js.map": {
+          "size": 1010,
+          "hash": "2f7e9476ff84fb2d4c41ec73a0067958"
+        },
+        ".js": {
+          "size": 874,
+          "hash": "dca85069feaff8bccd9e3ddd52b689dc"
+        },
+        ".d.ts": {
+          "size": 243,
+          "hash": "60208724a6b957a3cc4da5aec3250f53"
+        }
+      }
+    },
+    "sub/One": {
+      "name": "sub/One",
+      "version": "50d9240223882beafd37c257831f2243",
+      "size": 487,
+      "hash": "4ed1ec1942af7f2bff7099df3c00a453",
+      "files": {
+        ".ts": {
+          "size": 102,
+          "hash": "50d9240223882beafd37c257831f2243",
+          "sha": "2636dc7b99ed4f7fd3ea73fabf255212adb6e2e0"
+        },
+        ".js.map": {
+          "size": 418,
+          "hash": "f9cb8d1cabc4a569b185836b742ce370"
+        },
+        ".js": {
+          "size": 487,
+          "hash": "4ed1ec1942af7f2bff7099df3c00a453"
+        },
+        ".d.ts": {
+          "size": 48,
+          "hash": "fa304168f94c452b6c8a0d5cdec46bb0"
+        }
+      }
+    },
+    "sub/Tree": {
+      "name": "sub/Tree",
+      "version": "bf42d7bdf1d5cac5a8623541d6ae7821",
+      "size": 53,
+      "hash": "044d015338d2b73345db74ac07c71b63",
+      "files": {
+        ".ts": {
+          "size": 19,
+          "hash": "bf42d7bdf1d5cac5a8623541d6ae7821",
+          "sha": "b449b01f5e247ae821714dc2a95f37510b9ecb67"
+        },
+        ".js.map": {
+          "size": 200,
+          "hash": "0074b8cc90c2c1ba4fd372cb3cea69b1"
+        },
+        ".js": {
+          "size": 53,
+          "hash": "044d015338d2b73345db74ac07c71b63"
+        },
+        ".d.ts": {
+          "size": 0,
+          "hash": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+      }
+    },
+    "sub/Two": {
+      "name": "sub/Two",
+      "version": "38503a3f387a279932a2541866a79dc5",
+      "size": 487,
+      "hash": "5d5a46eb807862e13a8af1db5f7bde48",
+      "files": {
+        ".ts": {
+          "size": 101,
+          "hash": "38503a3f387a279932a2541866a79dc5",
+          "sha": "3775456a2db5de4c569dbade8e69149cdb303974"
+        },
+        ".js.map": {
+          "size": 416,
+          "hash": "9c54282a2e536f14eb2acc7db41603fb"
+        },
+        ".js": {
+          "size": 487,
+          "hash": "5d5a46eb807862e13a8af1db5f7bde48"
+        },
+        ".d.ts": {
+          "size": 48,
+          "hash": "6f5cf179278b1f5269661690c41f96f6"
+        }
+      }
+    }
+  }
+}

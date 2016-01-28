@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "file": "Two.js",
+  "sources": [
+    "./Two.ts"
+  ],
+  "names": [
+    "Two",
+    "Two.constructor"
+  ],
+  "mappings": ";;;;;;;;;YACA;gBACIA;oBACIC,WAAIA,CAACA,IAAIA,CAACA,KAAKA,CAACA,CAACA;gBACrBA,CAACA;gBACLD,UAACA;YAADA,CAACA,AAJD,IAIC;YAJD,qBAIC,CAAA",
+  "sourcesContent": [
+    "import {Main} from '../Main';\nexport class Two {\n    constructor(){\n        Main.from('Two');\n    }\n}"
+  ]
+}

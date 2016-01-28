@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "Tree.js",
+  "sources": [
+    "./Tree.ts"
+  ],
+  "names": [],
+  "mappings": "AAAA,OAAO,CAAC,IAAI,CAAC,KAAK,CAAC,CAAA",
+  "sourcesContent": [
+    "console.info(Array)"
+  ]
+}

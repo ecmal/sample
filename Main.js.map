@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "Main.js",
+  "sources": [
+    "./Main.ts"
+  ],
+  "names": [
+    "Main",
+    "Main.constructor",
+    "Main.from"
+  ],
+  "mappings": ";;;;;;;;;;;;YAKA;gBAQIA,cAAYA,MAAMA;oBAHXC,QAAGA,GAAOA,IAAIA,SAAGA,EAAEA,CAACA;oBACpBA,QAAGA,GAAOA,IAAIA,SAAGA,EAAEA,CAACA;oBAGvBA,OAAOA,CAACA,IAAIA,CAACA,MAAMA,CAACA,CAACA;gBACzBA,CAACA;gBARMD,SAAIA,GAAXA,UAAYA,MAAUA;oBAClBE,OAAOA,CAACA,IAAIA,CAACA,WAAWA,EAACA,KAAKA,EAACA,MAAMA,CAACA,CAACA;gBAC3CA,CAACA;gBAOLF,WAACA;YAADA,CAACA,AAXD,IAWC;YAXD,uBAWC,CAAA;YACD,oBAAe,IAAI,IAAI,CAAC,QAAQ,CAAC,EAAC",
+  "sourcesContent": [
+    "import {One} from './sub/One';\nimport {Two} from './sub/Two';\n\nimport * as Fs from 'node/fs';\nimport * as Zlib from 'node/zlib';\nexport class Main {\n\n    static from(target:any){\n        console.info('Main.from','Jan',target);\n    }\n    public one:One = new One();\n    public two:Two = new Two();\n\n    constructor(config){\n        console.info(\"Main\");\n    }\n}\nexport default new Main(\"config\");"
+  ]
+}

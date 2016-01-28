@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "file": "One.js",
+  "sources": [
+    "./One.ts"
+  ],
+  "names": [
+    "One",
+    "One.constructor"
+  ],
+  "mappings": ";;;;;;;;;YACA;gBACIA;oBACIC,WAAIA,CAACA,IAAIA,CAACA,KAAKA,CAACA,CAACA;gBACrBA,CAACA;gBACLD,UAACA;YAADA,CAACA,AAJD,IAIC;YAJD,qBAIC,CAAA",
+  "sourcesContent": [
+    "import {Main} from '../Main';\nexport class One {\n    constructor(){\n        Main.from('One');\n    }\n}\n"
+  ]
+}
