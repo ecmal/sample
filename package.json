@@ -1,17 +1,16 @@
 {
   "name"          : "sample",
-  "version"       : "0.0.3",
-  "registry"      : "bitbucket",
+  "version"       : "0.0.1",
+  "registry"      : "github",
   "vendor"        : "ecmal",
+  "main"          : "Main",
   "directories"   : {
     "source"      : "src",
     "output"      : "out",
     "vendor"      : "out"
   },
   "libraries"     : {
-    "runtime"     : "ecmal/runtime#1.2.0"
-  },
-  "engines"       : {
-    "node"   : "1.2.3"
+    "core"        : "0.0.1",
+    "runtime"     : "0.0.1"
   }
 }
