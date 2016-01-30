@@ -1,1 +1,1 @@
-console.info(Array)
+console.info('gago');
