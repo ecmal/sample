@@ -30,21 +30,21 @@ import * as util from 'node/util';
 import * as vm from 'node/vm';
 import * as zlib from 'node/zlib';
 
-
 export class Main {
     static from(target:any){
         console.info('Main.from',target);
     }
     public one:One = new One();
     public two:Two = new Two();
-
     constructor(config){
         console.info("Main Jan");
-        if(typeof process!='undefined'){
-            console.info(Object.keys(Buffer));
-            console.info(Object.keys(process));
-        }
+    }
+    printNodeModules(){
+        console.info(Object.keys(Buffer).join(' '));
+        console.info(Object.keys(process).join(' '));
+    }
+    printModules(){
+        console.info(System.modules);
     }
 }
 
-export default new Main("config");

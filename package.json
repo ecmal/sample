@@ -4,11 +4,6 @@
   "registry"      : "github",
   "vendor"        : "ecmal",
   "main"          : "Main",
-  "directories"   : {
-    "source"      : "src",
-    "output"      : "out",
-    "vendor"      : "out"
-  },
   "libraries"     : {
     "core"        : "0.0.1",
     "node"        : "0.0.1",
