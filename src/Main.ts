@@ -37,10 +37,13 @@ export class Main {
     }
     public one:One = new One();
     public two:Two = new Two();
+
     constructor(config){
         console.info("Main Jan");
-        console.info(Buffer);
-        console.info(process);
+        if(typeof process!='undefined'){
+            console.info(Object.keys(Buffer));
+            console.info(Object.keys(process));
+        }
     }
 }
 
