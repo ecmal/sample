@@ -44,7 +44,8 @@ export class Main {
         console.info(Object.keys(process).join(' '));
     }
     printModules(){
-        console.info(System.modules);
+        console.info(Object.keys(System));
     }
 }
 
+new Main('Test').printModules();
