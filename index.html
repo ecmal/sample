@@ -1,6 +1,11 @@
-<script src="out/runtime/package.js" main></script>
-<script>
-    System.import('sample/MainTest').catch(function(e){
-        console.error(e.stack);
-    });
-</script>
+<html>
+    <head>
+        <link rel="icon" href="#"/>
+        <script src="node_modules/@ecmal/runtime/index.js" main></script>
+        <script>
+        System.import('@ecmal/sample/Main').catch(function(e){
+            console.error(e.stack);
+        });
+        </script>
+    </head>
+</html>

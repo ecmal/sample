@@ -1,13 +1,23 @@
 {
-  "name"          : "sample",
-  "version"       : "0.0.1",
-  "registry"      : "github",
-  "vendor"        : "ecmal",
-  "main"          : "Main",
-  "libraries"     : {
-    "core"        : "0.0.1",
-    "node"        : "0.0.1",
-    "cli"         : "0.0.1",
-    "runtime"     : "0.0.2"
-  }
+    "name"              : "@ecmal/sample",
+    "version"           : "0.0.1",
+    "description"       : "SystemJs Like Module Loader",
+    "license"           : "UNLICENSED",
+    "author"            : "Mamble Inc. <ecmal@mamble.co>",
+    "repository"        : "https://github.com/ecmal/sample.git",
+    "contributors"      : ["Sergey Mamyan <sergey@mamble.co>"],
+    "homepage"          : "https://github.com/ecmal/sample",
+    "bugs"              : "https://github.com/ecmal/runtime/issues",
+    "keywords"          : ["typescript","ecmal","sample"],
+    "types"             : "index.d.ts",
+    "engines"           : {},
+    "bundle"            : true,
+    "directories"       : {
+        "src"           : "./src",
+        "out"           : "./node_modules"
+    },
+    "dependencies"      : {
+        "@ecmal/core"     : "latest",
+        "@ecmal/runtime"  : "latest"
+    }
 }
